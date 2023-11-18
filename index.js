@@ -24,6 +24,8 @@ app.get("/", (req, res) => {
   }
 });
 
+//test
+
 const userRoute = require("./routes/user");
 app.use(userRoute);
 const offerRoutes = require("./routes/offer");
