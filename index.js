@@ -23,7 +23,6 @@ app.get("/", (req, res) => {
     return res.status(500).json({ message: error.message });
   }
 });
-// oui
 const userRoute = require("./routes/user");
 app.use(userRoute);
 const offerRoutes = require("./routes/offer");
