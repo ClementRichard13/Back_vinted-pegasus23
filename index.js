@@ -18,7 +18,7 @@ cloudinary.config({
 
 app.get("/", (req, res) => {
   try {
-    return res.status(200).json("Bienvenue sur l'API Vinted 🔥🔥🔥🔥!");
+    return res.status(200).json("Bienvenue sur l'API Vinted 🔥🔥🔥!");
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
